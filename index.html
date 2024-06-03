@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King Franchise Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="food-container">
+    <div id="foodItems">
+        <span><h2>Burger King Items</h2></span>
+        <div>
+            <input type="checkbox" id="burger" name="foodItem" value="Burger" />
+            <label for="burger">Burger</label>
+        </div>
+        <div>
+            <input type="checkbox" id="fries" name="foodItem" value="Fries" />
+            <label for="fries">Fries</label>
+        </div>
+        <div>
+            <input type="checkbox" id="sandwich" name="foodItem" value="Sandwich" />
+            <label for="sandwich">Sandwich</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cheesy_tots" name="foodItem" value="Cheesy_tots" />
+            <label for="cheesy_tots">Cheesy_tots</label>
+        </div>
+        <div> 
+            <input type="checkbox" id="nugeets" name="foodItem" value="Nugeets" />
+            <label for="nugeets">Nugeets</label>
+        </div>
+        <div>
+            <input type="checkbox" id="drink" name="foodItem" value="Drink" />
+            <label for="drink">Drink</label>
+        </div>  
+      </div>
+      <button id="orderButton">Order Food</button>
+    </div> 
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="">
+        <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnJpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="">
+        <img src="sandwich.jpg" alt="">
+        <img src="cheesyTots.jpg" alt="">
+        <img src="nugeets.jpg" alt="">
+        <img src="https://images.unsplash.com/photo-1437418747212-8d9709afab22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJpbmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="">
+    </div>
+</div>
+    <div class="product-img">
+        <img id="foodImage" src="" alt="" />
+    </div>
+     
+    <div id="orderId">Order ID: <span id="orderIdValue"></span></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
